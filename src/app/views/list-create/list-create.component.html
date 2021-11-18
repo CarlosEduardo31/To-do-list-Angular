@@ -1,0 +1,35 @@
+<mat-card>
+    <mat-card-title class="titulo">Nova Tarefa</mat-card-title>
+    <form>
+        <mat-form-field>
+            <input  matInput placeholder="Tarefa" [(ngModel)]="tarefa" name="name">
+        </mat-form-field>
+    </form>
+    <button mat-raised-button (click)="adicionarTarefa()" color="primary">
+        Adicionar
+    </button>
+     <table class="content-table">
+        <thead>
+            <tr>
+                <th>TEREFA</th>
+                <th>AÇÕES</th>
+            </tr>
+        </thead>
+        <tbody class="items-tabela">
+              <tr *ngFor="let item of tarefas">
+                  <td > {{item}} </td>
+                  <td>
+                      <a class="edit" (click)="editarTarefa(item)">
+                         <i class="material-icons">edit</i>
+                      </a>
+                      <a class="delete" (click)="removerTarefa(item)">
+                         <i class="material-icons">delete</i>
+                      </a>
+                    </td>
+              </tr>
+        </tbody>
+    </table>
+</mat-card>
+
+
+  
