@@ -8,3 +8,7 @@ uma listagem com todos os itens e ao lado uma opção para editá-los e excluí-
 Para este projeto não será necessário o uso de um Back-end ou banco de dados,
 todos os dados dos usuários serão salvos em uma lista no Front-end, e a lista será
 mostrada em tela.
+
+<img src="https://github.com/CarlosEduardo31/To-do-list-Angular/blob/main/src/assets/todolist1.png?raw=true"  title="Imagem da pagina home">
+
+<img src="https://github.com/CarlosEduardo31/To-do-list-Angular/blob/main/src/assets/todolist2.png?raw=true"  title="Imagem da pagina list">
